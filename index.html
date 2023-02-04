@@ -5,16 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial - CARRO CERTO</title>
+ <!--CSS-->
+ <link rel="stylesheet" href="./header.css">
+ <link rel="stylesheet" href="./main.css">
+
+ <!--icone-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b20bcbf23a.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
     <header>
-            <h1 class="logo">
-            <a href="https://carrocertors.com/">
-                <img src="" alt="logo"></a></h1>
+                <section class="logo">
+                    <h1 class="logotipo">
+                        <a href="https://carrocertors.com/">
+                            <img src="./img/logo topo.jpg" alt="logo"></a></h1>
 
-            <nav>
-                <div class="lista">
+                           <div class="dados">
+                            <div class="fone">
+                                <a href="tel:+555131917606">
+                                    <i class="fa-solid fa-phone-flip"></i>
+                                    <h4>(51) 3191-7606</h4>
+                                </a>
+                            </div>
+                            <div class="whats">
+                           <a href="https://api.whatsapp.com/send?phone=+5551985980864&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+seus+ve%C3%ADculos">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <h4>(51) 9 8598-0864</h4>
+                                </a>
+                            </div></div></section>
+
+                     <div class="lista">
                     <ul>
                         <li><a href="https://carrocertors.com/">Inicio</a></li>
                         <li><a href="https://carrocertors.com/veiculos">Veículos</a></li>
@@ -22,46 +44,48 @@
                         <li><a href="https://carrocertors.com/localizacao">Localização</a></li>
                         <li><a href="https://carrocertors.com/contato">Contato</a></li>
                     </ul>
-                </div>
-                <div class="fone">
-                    <a href="tel:+555131917606">
-                        <i class="fa-solid fa-phone-flip"></i>
-                        <h4>(51) 3191-7606</h4>
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=+5551985980864&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+seus+ve%C3%ADculos">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <h4>(51) 9 8598-0864</h4>
-                    </a>
-                </div>
-                <div class="link">
+                
+                <div>
                     <span>Siga nas Redes Sociais:</span>
                     <a href="https://www.facebook.com/Carro-Certo-100213375295867">
                         <i class="fa-brands fa-facebook"></i> </a>
                         <a href="https://www.instagram.com/carrocertors/?igshid=1d676py24wfb5">
                             <i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </nav>  
+                </div></div>
+        
 
     </header>
     <main>
     <!--slide em html-->
     <section class="image">
-        <img src="" alt="imagem do carro">
+        <img src="./img/carro-aleatorio-laranja.jpg" alt="imagem do carro">
   </section>
   <section class="botao">
     <input type="text" name="nome do veiculo" placeholder="Digite a marca ou o modelo do carro...">
-    <button class="botao-principal"><span>Buscar Veículos</span></button>
+    <a href="https://carrocertors.com/veiculos?veiculo_nome=">
+    <button class="botao-principal"><span>Buscar Veículos</span></button></a>
+    
   </section>
-  <section class="icones-marcas">
+  <section class="icones">
     <ul>
-        <il><i class="fa-solid fa-angle-left"></i></il>
-        <il><img src="" alt="logo da fiat"><p>Fiat</p></il>
-        <il><img src="" alt="logo da ford"><p>Ford</p></il>
-        <il><img src="" alt="logo da chevrolet"><p>Chevrolet</p></il>
-        <il><img src="" alt="logo da honda"><p>Honda</p></il>
-        <il><img src="" alt="logo da hyundai"><p>Hyundai</p></il>
-        <il><img src="" alt="logo da kia motors"><p>Kia Motors</p></il>
-        <il><i class="fa-solid fa-angle-right"></i></il>
+        <div class="cards-container">
+        <div class="cards">
+        <il><i class="fa-solid fa-angle-left"></i></il></div>
+        <div class="cards">
+        <il><img src="./img/logo-das-marcas/fiat.png" alt="logo da fiat"><p>Fiat</p></il></div>
+        <div class="cards">
+        <il><img src="./img/logo-das-marcas/ford.png" alt="logo da ford"><p>Ford</p></il></div>
+        <div class="cards">
+        <il><img src="./img/logo-das-marcas/chevrolet.png" alt="logo da chevrolet"><p>Chevrolet</p></il></div>
+        <div class="cards">
+        <il><img src="./img/logo-das-marcas/honda.png" alt="logo da honda"><p>Honda</p></il></div>
+        <div class="cards">
+        <il><img src="./img/logo-das-marcas/hyundai.png" alt="logo da hyundai"><p>Hyundai</p></il></div>
+        <div class="cards">
+        <il><img src="./img/logo-das-marcas/kia.png" alt="logo da kia motors"><p>Kia Motors</p></il></div>
+        <div class="cards">
+        <il><i class="fa-solid fa-angle-right"></i></il></div>
+        </div>
     </ul>
 
   </section>
