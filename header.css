@@ -1,4 +1,11 @@
-*{font-family: 'Open Sans', sans-serif;}
+*{font-family: 'Open Sans', sans-serif;
+  
+        margin: 0;
+        padding: 0;
+        border: 0;
+        
+    }
+  
 header img{max-width:350px ;max-height: 90px;margin-left: 30px;}
 header{margin: 0px 340px 60px;height: 105px;}
 /*-----CENTRALIZAÇÃO E BOX DOS LINKS*/
@@ -17,7 +24,8 @@ header .logo .whats a{background-color: #089a5f;color: #ffffff;
             font-size: 14px;
             margin-left: 20px;}
  /*LINKS DA LISTA */
-header .lista ul, div{display: flex;align-items: center; justify-content: space-between; list-style: none;} 
+ .lista{display: flex; align-items: center; justify-content: space-between;}
+header .lista ul{display: flex;align-items: center; justify-content: space-between; list-style: none;} 
 
 header .lista li{margin-right: 40px;}
 header .lista a{text-decoration: none; font-size: 14px;color:black;}
